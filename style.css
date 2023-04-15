@@ -1,0 +1,12 @@
+/* Basic CSS styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+label, input, select, button {
+    margin: 5px;
+}
+
+#studentList {
+    margin-top: 10px;
+}

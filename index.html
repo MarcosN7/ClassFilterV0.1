@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Management System</h1>
+    <form id="studentForm">
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <select id="class" required>
+            <option value="">Select Class</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        <button type="submit">Add Student</button>
+    </form>
+    <div id="studentList"></div>
+    <div id="filterSort">
+        <select id="filterByAge">
+            <option value="">Filter by Age</option>
+            <option value="asc">Young to Old</option>
+            <option value="desc">Old to Young</option>
+        </select>
+        <select id="filterByClass">
+            <option value="">Filter by Class</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
